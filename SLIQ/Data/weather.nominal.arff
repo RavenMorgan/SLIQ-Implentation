@@ -1,0 +1,23 @@
+@RELATION Nouveau-document-texte-_2_
+
+@ATTRIBUTE attribute_0 {"overcast,"rainy,"sunny}
+@ATTRIBUTE attribute_1 {cool,hot,mild}
+@ATTRIBUTE attribute_2 {high,normal}
+@ATTRIBUTE attribute_3 {FALSE,TRUE}
+@ATTRIBUTE attribute_4 {no",yes"}
+
+@DATA
+"sunny,hot,high,FALSE,no"
+"sunny,hot,high,TRUE,no"
+"overcast,hot,high,FALSE,yes"
+"rainy,mild,high,FALSE,yes"
+"rainy,cool,normal,FALSE,yes"
+"rainy,cool,normal,TRUE,no"
+"overcast,cool,normal,TRUE,yes"
+"sunny,mild,high,FALSE,no"
+"sunny,cool,normal,FALSE,yes"
+"rainy,mild,normal,FALSE,yes"
+"sunny,mild,normal,TRUE,yes"
+"overcast,mild,high,TRUE,yes"
+"overcast,hot,normal,FALSE,yes"
+"rainy,mild,high,TRUE,no"
